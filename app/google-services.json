@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "809698153558",
+    "project_id": "assignmentapp-8390a",
+    "storage_bucket": "assignmentapp-8390a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809698153558:android:a9b62dd1232608eadf57f7",
+        "android_client_info": {
+          "package_name": "com.example.safeproassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809698153558-4mqnjb5vujfo3n96e77b2ue7pvusgfm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC_k-_W-XdjSmGZ64rCnCNI9ftw2QmqYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809698153558-4mqnjb5vujfo3n96e77b2ue7pvusgfm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
