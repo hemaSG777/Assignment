@@ -76,7 +76,7 @@ class DetailsActivity : AppCompatActivity() {
                 "Name: $name\nDate of Birth: $dob\nContact Number: $number\nMail Id :$mail\n Address : $address\nAttachment : $pdf"
             val intent = Intent(Intent.ACTION_SEND)
             intent.type = "text/plain"
-            intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("hemasg1234@gmail.com"))
+            intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("hemasg7777@gmail.com"," hemasg1234@gmail.com"))
             intent.putExtra(Intent.EXTRA_SUBJECT, "Details")
             intent.putExtra(Intent.EXTRA_TEXT, data)
             startActivity(Intent.createChooser(intent, "Send mail"))
@@ -110,16 +110,6 @@ class DetailsActivity : AppCompatActivity() {
         intent.action = Intent.ACTION_GET_CONTENT
         startActivityForResult(Intent.createChooser(intent, "Select Picture"), SELECT_PICTURE)
     }
-
-//    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-//        super.onActivityResult(requestCode, resultCode, data)
-//        if (requestCode == SELECT_PICTURE) {
-//            if (resultCode == Activity.RESULT_OK) {
-//                onPictureSelect(data)
-//            }
-//        }
-//    }
-
 
     private fun onPictureSelect(data: Intent?) {
         imageUri = data!!.data
