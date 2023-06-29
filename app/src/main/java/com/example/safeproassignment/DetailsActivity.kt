@@ -76,7 +76,7 @@ class DetailsActivity : AppCompatActivity() {
                 "Name: $name\nDate of Birth: $dob\nContact Number: $number\nMail Id :$mail\n Address : $address\nAttachment : $pdf"
             val intent = Intent(Intent.ACTION_SEND)
             intent.type = "text/plain"
-            intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("hemasg7777@gmail.com"," hemasg1234@gmail.com"))
+            intent.putExtra(Intent.EXTRA_EMAIL, arrayOf("sujay@safeproindia.com","supreetha@safepro.com"))
             intent.putExtra(Intent.EXTRA_SUBJECT, "Details")
             intent.putExtra(Intent.EXTRA_TEXT, data)
             startActivity(Intent.createChooser(intent, "Send mail"))
